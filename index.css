@@ -1,0 +1,44 @@
+#first-elt {
+  position: relative;
+  left: 30px;
+  top: 400px;
+  height: 300px;
+  width: 500px;
+  background-color: #fafafa;
+  border: solid 3px #ff7347;
+  font-size: 24px;
+  text-align: center;
+  z-index: 1;
+}
+
+#second-elt {
+  position: relative;
+  height: 300px;
+  width: 500px;
+  background-color: #fafafa;
+  border: solid 3px #ff7347;
+  font-size: 24px;
+  text-align: center;
+}
+
+#parent {
+  margin: 10px;
+  width: 300px;
+  height: 300px;
+  position: relative;
+  background-color: #fafafa;
+  border: 2px solid green;
+  text-align: center;
+  z-index: 2;
+}
+
+#child {
+  width: 200px;
+  height: 200px;
+  text-align: center;
+  border: 1px solid red;
+  color: blue;
+  position: absolute;
+  top: 50px;
+  left: 70px;
+}
